@@ -1,0 +1,84 @@
+body,
+html{
+    min-height: 100vh;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.section1,
+.footer{
+    background-color: #1F2937;
+}
+
+.section1{
+    color: white;
+    padding: 0px 200px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+
+
+.headerlogo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.body1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftsidesection1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 12px;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subtext1{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.signup{
+    background: #3882F6;
+    color: #F9FAF8;
+    border-style: none;
+    outline-style: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+.gian{
+    width: 50%;
+    height: 286px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
