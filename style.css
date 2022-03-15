@@ -12,7 +12,7 @@ body{
 
 ul{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     list-style-type: none;
     padding: 0px;
     margin: 0;
@@ -20,20 +20,35 @@ ul{
     font-weight: lighter;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
 .section1,
 .footer{
     background-color: #1F2937;
 }
 
+.section1,
+.section2,
+.section3{
+    padding: 0px 200px 100px;
+}
+
 .section1{
     color: white;
-    padding: 0px 200px 100px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 150px;
+    margin-bottom: 125px;
     margin-top: 20px;
 }
 
@@ -81,4 +96,114 @@ button.signup{
     height: 286px;
     object-fit: cover;
     object-position: 50% 30%;
+}
+
+.infoheader{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 40px 0px;
+}
+
+.img2{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: 0% 50%;
+}
+
+.img21{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: 25% 50%;
+}
+
+.giansprojects{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.subtext2{
+    font-size: 16px;
+    color: grey;
+    max-width: 200px;
+    margin: 0;
+}
+
+.section3{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: 100px;
+}
+
+.author{
+    font-size: 20px;
+    font-weight: bold;
+    color:#1F2937;
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+
+.section4{
+    padding: 75px 200px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 100px;
+    border-radius: 4px;
+    padding: 0 100px;
+}
+
+.boxtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.signup2{
+    background-color: transparent;
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: white;
+    outline-style: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+.footerhead{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
